@@ -17,3 +17,7 @@ echo "Hora atual: $VARIAVEL"
 ~~~
 
 > Normalmente, todas as variávels são declaradas no começo do código.
+
+É possível redeclarar uma variável e atribuir a ela um novo valor. Isso irá sobrescrever a variável de mesmo nome criada anteriormente.
+
+As variáveis não precisão ter seu tipo definido, ou seja, no shell script sua tipagem é dinâmica.
