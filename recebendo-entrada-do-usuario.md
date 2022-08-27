@@ -39,3 +39,24 @@ read -s SENHA
 ~~~
 
 # Recebendo entrada de usuários de parâmetros
+
+No shell parâmetros de um comando são os valores digitados após ele separados por espaços.
+
+Exemplo:
+
+~~~bash
+evince document.pdf
+~~~
+
+Acima, o parâmtro do comando `evince` é document.pdf,
+
+Em um script os parâmetros podem ser verificados da seguinte maneira:
+
+~~~bash
+# $0 - Nome do parâmetro
+# $# - Quantidade de parâmetros
+# $* - Todos os parâmetros
+# $1-9 - Cada um dos parâmetros
+
+echo "O script $0 recebeu $# parâmetros."
+~~~
